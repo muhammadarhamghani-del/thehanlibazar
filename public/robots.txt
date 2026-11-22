@@ -1,0 +1,15 @@
+# robots.txt for The Hanli Bazar (thehanlibazar.com)
+User-agent: *
+Allow: /
+Allow: /assets/
+Allow: /assets/products/
+Allow: /assets/ai-lifestyle/
+Allow: /assets/videos/
+
+# Disallow internal state/temp endpoints if any
+Disallow: /admin/
+Disallow: /private/
+
+# Host and Sitemap
+Host: https://thehanlibazar.com
+Sitemap: https://thehanlibazar.com/sitemap.xml

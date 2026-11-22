@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://thehanlibazar.com/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    
+    <!-- PRODUCT IMAGES FOR GOOGLE IMAGE SEARCH INDEXING -->
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_sapphire_blue.jpg</image:loc>
+      <image:title>Luxury Bed Spread Royal Sapphire Blue 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Royal Sapphire Blue Ultra Sonic Quilted King Flat Bedspread Set</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_terracotta.jpg</image:loc>
+      <image:title>Luxury Bed Spread Terracotta Burgundy 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Terracotta Burgundy Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_silver_grey.jpg</image:loc>
+      <image:title>Luxury Bed Spread Silver Slate Grey 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Silver Slate Grey Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_pistachio_green.jpg</image:loc>
+      <image:title>Luxury Bed Spread Pistachio Sage Olive 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Pistachio Sage Olive Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_aqua_teal.jpg</image:loc>
+      <image:title>Luxury Bed Spread Ocean Mint Aqua Teal 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Ocean Mint Aqua Teal Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_lilac_mauve.jpg</image:loc>
+      <image:title>Luxury Bed Spread Lilac Mauve Orchid 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Lilac Mauve Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://thehanlibazar.com/assets/products/quilted_peach_blossom.jpg</image:loc>
+      <image:title>Luxury Bed Spread Dusty Peach Blossom 3-Piece Set - King Flat 92x94</image:title>
+      <image:caption>The Hanli Bazar Dusty Peach Blossom Ultra Sonic Quilted Bedspread</image:caption>
+    </image:image>
+  </url>
+</urlset>
