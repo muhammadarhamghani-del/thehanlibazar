@@ -10,10 +10,11 @@ import {
   Camera,
   Share2,
   Send,
-  Heart
+  Heart,
+  FileText
 } from 'lucide-react';
 
-export default function Footer() {
+export default function Footer({ onOpenTerms }) {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
 
@@ -186,6 +187,15 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-xs">
               <li>
+                <button 
+                  onClick={onOpenTerms} 
+                  className="hover:text-amber-400 transition-colors text-left cursor-pointer flex items-center gap-1.5 text-amber-300 font-semibold"
+                >
+                  <FileText className="w-3 h-3 text-amber-400" />
+                  <span>Ordering Terms & Conditions</span>
+                </button>
+              </li>
+              <li>
                 <a href="#faq-section" className="hover:text-amber-400 transition-colors">
                   Nationwide Cash on Delivery (COD)
                 </a>
@@ -242,8 +252,15 @@ export default function Footer() {
           <p>
             © {new Date().getFullYear()} THE HANLI BAZAR (thehanlibazar.com). All Rights Reserved.
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3 sm:gap-4 flex-wrap">
             <span>100% Export-Quality Bedding</span>
+            <span>•</span>
+            <button 
+              onClick={onOpenTerms}
+              className="text-amber-400 hover:text-amber-300 underline cursor-pointer"
+            >
+              Terms & Conditions
+            </button>
             <span>•</span>
             <span>Cash on Delivery Pakistan</span>
             <span>•</span>

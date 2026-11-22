@@ -209,6 +209,15 @@ export default function CartDrawer({
                 )}
               </div>
 
+              {/* ONLINE PAYMENT INCENTIVE CALLOUT */}
+              <div className="p-2.5 rounded-xl bg-gradient-to-r from-emerald-950/60 to-stone-900 border border-emerald-500/40 flex items-center justify-between text-xs">
+                <span className="text-emerald-300 font-bold flex items-center gap-1.5">
+                  <Sparkles className="w-3.5 h-3.5 text-emerald-400" />
+                  Pay Online & Save 10%
+                </span>
+                <span className="text-[10px] text-zinc-300">Bank / Card / Raast</span>
+              </div>
+
               {/* Price Breakdown */}
               <div className="space-y-1.5 text-xs text-zinc-400 pt-2 border-t border-white/5">
                 <div className="flex justify-between">
@@ -222,16 +231,19 @@ export default function CartDrawer({
                   </div>
                 )}
                 <div className="flex justify-between">
-                  <span>Nationwide Delivery</span>
-                  <span className="text-emerald-400 font-semibold">
-                    {neededForFreeShipping === 0 ? 'FREE' : 'Rs. 250 (Free above Rs. 3,000)'}
+                  <span>Nationwide Courier Delivery</span>
+                  <span className="text-zinc-300 font-medium">
+                    Rs. 250 (on customer)
                   </span>
                 </div>
                 <div className="flex justify-between text-base font-black text-white pt-2 border-t border-white/10">
-                  <span>Total Amount</span>
+                  <span>Total (Standard)</span>
                   <span className="text-amber-300">
-                    Rs. {(finalTotal + (neededForFreeShipping === 0 ? 0 : 250)).toLocaleString()}
+                    Rs. {(finalTotal + 250).toLocaleString()}
                   </span>
+                </div>
+                <div className="text-[11px] text-emerald-400 font-semibold text-right">
+                  Pay Online Price: Rs. {(Math.round(subtotal * 0.90) + 250).toLocaleString()} (Save Rs. {Math.round(subtotal * 0.10).toLocaleString()})
                 </div>
               </div>
 
@@ -243,13 +255,13 @@ export default function CartDrawer({
                     cart,
                     subtotal,
                     discountAmount,
-                    shipping: neededForFreeShipping === 0 ? 0 : 250,
-                    finalTotal: finalTotal + (neededForFreeShipping === 0 ? 0 : 250)
+                    shipping: 250,
+                    finalTotal: finalTotal + 250
                   });
                 }}
                 className="w-full py-3.5 rounded-xl bg-gradient-to-r from-amber-500 via-amber-400 to-amber-500 hover:from-amber-400 hover:to-amber-300 text-stone-950 font-black text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-xl shadow-amber-500/20 cursor-pointer transition-all transform hover:-translate-y-0.5"
               >
-                <span>Proceed to Cash on Delivery</span>
+                <span>Proceed to Checkout</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>

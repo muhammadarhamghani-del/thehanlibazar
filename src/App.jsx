@@ -13,12 +13,14 @@ import CartDrawer from './components/CartDrawer';
 import CheckoutModal from './components/CheckoutModal';
 import ProductModal from './components/ProductModal';
 import BedsheetVideoModal from './components/BedsheetVideoModal';
+import TermsModal from './components/TermsModal';
 import { Sparkles, Check, ShoppingBag, Eye, X, Film } from 'lucide-react';
 
 export default function App() {
   const [cart, setCart] = useState([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isCheckoutOpen, setIsCheckoutOpen] = useState(false);
+  const [isTermsOpen, setIsTermsOpen] = useState(false);
   const [checkoutData, setCheckoutData] = useState(null);
   const [selectedProductForModal, setSelectedProductForModal] = useState(null);
   const [videoModalProduct, setVideoModalProduct] = useState(null);
@@ -71,7 +73,7 @@ export default function App() {
   const handleDirectBuy = (product) => {
     const directCart = [{ ...product, quantity: 1 }];
     const subtotal = product.price;
-    const shipping = subtotal >= 3000 ? 0 : 250;
+    const shipping = 250; // Shipping charges on customer
     setCheckoutData({
       cart: directCart,
       subtotal,
@@ -153,7 +155,7 @@ export default function App() {
       <FaqSection />
 
       {/* FOOTER */}
-      <Footer />
+      <Footer onOpenTerms={() => setIsTermsOpen(true)} />
 
       {/* CART DRAWER */}
       <CartDrawer
@@ -165,12 +167,19 @@ export default function App() {
         onCheckout={handleOpenCheckout}
       />
 
-      {/* CHECKOUT & CASH ON DELIVERY (COD) MODAL */}
+      {/* CHECKOUT MODAL (ONLINE 10% DISCOUNT & COD SOLEMN OATH) */}
       <CheckoutModal
         isOpen={isCheckoutOpen}
         onClose={() => setIsCheckoutOpen(false)}
         checkoutData={checkoutData}
         onOrderPlaced={handleOrderPlaced}
+        onOpenTerms={() => setIsTermsOpen(true)}
+      />
+
+      {/* TERMS & CONDITIONS MODAL */}
+      <TermsModal
+        isOpen={isTermsOpen}
+        onClose={() => setIsTermsOpen(false)}
       />
 
       {/* QUICK VIEW / PRODUCT DETAILS MODAL (WITH MULTI-IMAGE GALLERY & TAP NEXT) */}
