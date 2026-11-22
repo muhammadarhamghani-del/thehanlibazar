@@ -38,10 +38,10 @@ export default function Footer({ onOpenTerms }) {
               <span>Join The Hanli Tribe</span>
             </div>
             <h3 className="text-xl sm:text-2xl font-black text-white">
-              Unlock 10% Off Your First Luxury Bed Set.
+              Subscribe for the Latest Updates.
             </h3>
             <p className="text-xs text-zinc-400 mt-1">
-              Receive VIP drop alerts, limited-edition bridal discounts, and bedroom decor advice.
+              Receive VIP drop alerts, new seasonal color releases, and exclusive bedroom styling advice.
             </p>
           </div>
 
@@ -58,7 +58,7 @@ export default function Footer({ onOpenTerms }) {
               type="submit"
               className="px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-400 text-stone-950 font-bold text-xs uppercase tracking-wider shrink-0 transition-all cursor-pointer shadow-md"
             >
-              {subscribed ? 'Subscribed!' : 'Join Tribe'}
+              {subscribed ? 'Subscribed!' : 'Subscribe'}
             </button>
           </form>
         </div>
