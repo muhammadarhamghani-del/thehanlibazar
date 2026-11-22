@@ -105,18 +105,18 @@ export const CHARACTERS = [
     badge: "Warmth Converted"
   },
   {
-    id: "ameer",
-    name: "Ameer",
-    title: "21st-Century Supply Chain & COD Logistics Head",
-    image: "/assets/characters/char_ameer.png",
+    id: "arham",
+    name: "Arham",
+    title: "Founder & Supply Chain Mastermind",
+    image: "/assets/characters/char_arham.png",
     sunglassesNote: "Tech-founder style polarized dark spectacles",
     urduCatchphrase: "پورے پاکستان میں کیش آن ڈلیوری اور تیز ترین ڈسپیچ!",
     romanUrduQuote: "Direct mill-to-doorstep dispatch! Cash on Delivery available across every city in Pakistan.",
     englishMeaning: "Nationwide Cash on Delivery, instant doorstep dispatch, and export quality.",
     beddingSpecialty: "Nationwide COD Logistics, Quick Dispatch & Customer Support",
     verdict: "Whether you are in Karachi, Lahore, Quetta, or Gilgit, your package arrives swiftly and safely.",
-    favoriteProduct: "silk-road-executive-combo",
+    favoriteProduct: "quilted-ocean-mint-aqua-teal",
     colorTheme: "from-cyan-950 to-slate-900",
-    badge: "Logistics Master"
+    badge: "Founder & Logistics Master"
   }
 ];

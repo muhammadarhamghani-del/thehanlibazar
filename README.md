@@ -39,7 +39,7 @@
    - Printable order receipt with generated Order Reference ID.
 
 5. **Meet the Hanli Tribe (Character Bible with Sunglasses Swag):**
-   - Interactive showcase of all 8 characters (`Ertuğrul Gazi`, `Osman I`, `Turgut Alp`, `Halime Hatun`, `Hayme Ana`, `Bala Hatun`, `Baycu Noyan`, `Ameer`).
+   - Interactive showcase of all 8 characters (`Ertuğrul Gazi`, `Osman I`, `Turgut Alp`, `Halime Hatun`, `Hayme Ana`, `Bala Hatun`, `Baycu Noyan`, `Arham`).
    - Quotes in Urdu and Roman Urdu with their bedding quality roles.
 
 6. **Customer Reviews & 3D Flippable Unboxing Insert Card:**

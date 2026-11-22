@@ -230,7 +230,7 @@ export const PRODUCTS = [
   {
     id: "quilted-ocean-mint-aqua-teal",
     name: "Luxury Bed Spread — Ocean Mint Aqua Teal (3-Piece Set)",
-    subtitle: "Ameer's Choice: Vibrant Coastal Refresh & Instant Dispatch",
+    subtitle: "Arham's Choice: Vibrant Coastal Refresh & Instant Dispatch",
     category: "quilted-sets",
     categoryName: "Ultra Sonic Quilted",
     price: 3850,
@@ -243,9 +243,9 @@ export const PRODUCTS = [
     fabric: "100% Micro Fabric Egypt Cotton",
     threadCount: "Ultra Sonic Embossed Quilted",
     guarantee: "Cooling Touch • Rapid Drying • Non-Fade",
-    character: "Ameer",
+    character: "Arham",
     characterQuote: "Direct mill-to-doorstep dispatch! Cash on Delivery available across every city in Pakistan.",
-    characterImage: "/assets/characters/char_ameer.png",
+    characterImage: "/assets/characters/char_arham.png",
     realImage: "/assets/products/quilted_aqua_teal.jpg",
     gallery: [
       {
