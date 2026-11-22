@@ -52,17 +52,22 @@ export default function TermsModal({ isOpen, onClose }) {
         <div className="p-6 sm:p-8 overflow-y-auto space-y-6 text-xs text-zinc-300 leading-relaxed">
           
           {/* NOTICE CALLOUT: 10% ONLINE DISCOUNT INCENTIVE */}
-          <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950/60 to-stone-900 border border-emerald-500/40 space-y-2">
+          <div className="p-4 rounded-2xl bg-gradient-to-r from-emerald-950/60 to-stone-900 border border-emerald-500/40 space-y-2.5">
             <div className="flex items-center gap-2 text-emerald-400 font-bold text-sm">
               <Percent className="w-4 h-4" />
               <span>10% Instant Online Payment Discount Incentive</span>
             </div>
             <p className="text-zinc-300 text-xs">
-              We strongly encourage our customers to pay online using <strong>Bank Transfer, Raast ID, Nayapay, Sadapay, or Debit/Credit Cards</strong>. To reward customers who pay online, we provide an instant <strong>10% DISCOUNT</strong> on your entire bedding subtotal.
+              We strongly encourage customers to pay online using <strong>UBL Bank Transfer, Raast ID, Nayapay, Sadapay, JazzCash, or Easypaisa</strong>. Customers who pay online receive an instant <strong>10% DISCOUNT</strong> on their subtotal.
             </p>
+            <div className="p-3 rounded-xl bg-stone-950/80 border border-white/10 space-y-1 text-[11px]">
+              <div><strong>Account Title:</strong> <span className="text-emerald-300">Muhammad Arham Ghani</span></div>
+              <div><strong>Raast ID / Nayapay / Sadapay / Easypaisa / Jazzcash:</strong> <span className="font-mono text-white font-bold">03340976900</span></div>
+              <div><strong>UBL Account No:</strong> <span className="font-mono text-white font-bold">1132304778395</span> | <strong>IBAN:</strong> <span className="font-mono text-white font-bold">PK26UNIL0109000304778395</span></div>
+            </div>
             <p className="text-emerald-300 font-semibold text-xs flex items-center gap-1.5">
               <Sparkles className="w-3.5 h-3.5" />
-              Send your payment screenshot to our official WhatsApp (<strong>0336 3326666</strong>) for guaranteed priority queue dispatch.
+              Send payment screenshot to WhatsApp (<strong>0336 3326666</strong>) for guaranteed priority queue dispatch.
             </p>
           </div>
 

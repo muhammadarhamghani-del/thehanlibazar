@@ -137,12 +137,15 @@ To make your website look 100% custom and personal to your exact textile invento
    - 3 to 5 flat-lay and dressed bed photos of your actual stitched sheets (King & Queen).
    - Close-up photos showing the generous King flat sheet tuck under a real mattress.
    - Close-up photo of the fabric weave to highlight combed cotton softness.
-2. **Official WhatsApp Phone Number:**
+2. **Official WhatsApp Phone Number (Support & Screenshot Verification):**
    - Active WhatsApp number: `03363326666` (https://wa.me/923363326666).
 3. **Official Support Email:**
    - Currently set to `support@thehanlibazar.com`.
-4. **Bank Account Details (Optional):**
-   - If you want customers to also have the option of direct IBAN transfer (Meezan Bank, HBL, Bank Alfalah, etc.) alongside COD.
+4. **Official Payment Accounts (10% Online Payment Discount):**
+   - **Account Title:** Muhammad Arham Ghani
+   - **Raast ID / Wallets (Nayapay, Sadapay, Easypaisa, Jazzcash):** `03340976900`
+   - **UBL Bank Account No:** `1132304778395`
+   - **IBAN No:** `PK26UNIL0109000304778395`
 5. **Physical Dispatch Address:**
    - Islamabad, Pakistan.
 
