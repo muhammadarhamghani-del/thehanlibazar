@@ -38,7 +38,7 @@ export default function FaqSection() {
           Frequently Asked Questions.
         </h2>
         <p className="text-sm text-zinc-400 mt-2">
-          Clear answers about fabrics, elastic grip, washing, and nationwide Cash on Delivery.
+          Clear answers about fabrics, dimensions, washing, and nationwide Cash on Delivery.
         </p>
       </div>
 

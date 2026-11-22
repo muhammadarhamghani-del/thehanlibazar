@@ -27,7 +27,7 @@ export default function Navbar({ cartCount, onOpenCart, onOpenSearch }) {
       {/* TOP ANNOUNCEMENT BAR */}
       <div className="bg-gradient-to-r from-amber-700 via-amber-600 to-amber-700 text-stone-950 text-xs py-1.5 px-4 font-semibold tracking-wide text-center flex items-center justify-center gap-2">
         <Sparkles className="w-3.5 h-3.5" />
-        <span>Jahan Shopping Na Karna Bhi Jurm Hai! • 100% Export Cotton • Free Nationwide COD over Rs. 3,000</span>
+        <span>Jahan Shopping Na Karna Bhi Jurm Hai! • 100% Export Cotton • Pay Online & Get 10% OFF</span>
         <span className="hidden md:inline px-2 py-0.5 rounded-full bg-black/15 text-[10px] font-bold uppercase tracking-wider">
           thehanlibazar.com
         </span>

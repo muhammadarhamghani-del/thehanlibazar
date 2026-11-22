@@ -29,9 +29,6 @@ export default function CartDrawer({
   const subtotal = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
   const discountAmount = Math.round((subtotal * discountPercent) / 100);
   const finalTotal = subtotal - discountAmount;
-  const freeShippingThreshold = 3000;
-  const neededForFreeShipping = Math.max(0, freeShippingThreshold - subtotal);
-  const freeShippingProgress = Math.min(100, Math.round((subtotal / freeShippingThreshold) * 100));
 
   const applyCoupon = () => {
     const code = couponCode.trim().toUpperCase();
@@ -74,25 +71,15 @@ export default function CartDrawer({
             </button>
           </div>
 
-          {/* FREE SHIPPING PROGRESS BAR */}
-          <div className="px-6 py-3 bg-stone-900/80 border-b border-white/5">
-            <div className="flex items-center justify-between text-xs mb-1.5">
-              <span className="flex items-center gap-1.5 text-zinc-300 font-medium">
-                <Truck className="w-3.5 h-3.5 text-amber-400" />
-                {neededForFreeShipping === 0 ? (
-                  <strong className="text-emerald-400 font-bold">You qualify for FREE Express Shipping!</strong>
-                ) : (
-                  <span>Add <strong>Rs. {neededForFreeShipping.toLocaleString()}</strong> more for Free Shipping</span>
-                )}
-              </span>
-              <span className="font-mono text-zinc-400 text-[11px]">{freeShippingProgress}%</span>
-            </div>
-            <div className="w-full h-1.5 bg-stone-800 rounded-full overflow-hidden">
-              <div 
-                className="h-full bg-gradient-to-r from-amber-500 to-emerald-400 transition-all duration-500"
-                style={{ width: `${freeShippingProgress}%` }}
-              />
-            </div>
+          {/* NATIONWIDE DELIVERY NOTICE */}
+          <div className="px-6 py-3 bg-stone-900/80 border-b border-white/5 flex items-center justify-between text-xs">
+            <span className="flex items-center gap-2 text-zinc-300 font-medium">
+              <Truck className="w-3.5 h-3.5 text-amber-400" />
+              <span>Nationwide Courier Delivery</span>
+            </span>
+            <span className="font-semibold text-amber-300 bg-amber-500/10 px-2.5 py-0.5 rounded border border-amber-500/20 text-[11px]">
+              Rs. 250 (Flat Across Pakistan)
+            </span>
           </div>
 
           {/* CART ITEMS LIST */}

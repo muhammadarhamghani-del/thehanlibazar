@@ -31,8 +31,10 @@
    - Real-time search, size filtering, category tabs, and sorting.
    - Quick View 3D Modal with package contents and care guide.
 
-4. **Cart Drawer & Pakistan Cash on Delivery (COD) Checkout:**
-   - Slide-out cart with quantity adjuster, coupon code support (`HANLI10` for 10% off), and free delivery progress bar.
+4. **Cart Drawer & Pakistan Nationwide Checkout:**
+   - Slide-out cart with quantity adjuster, coupon code support (`HANLI10` for 10% off), and transparent nationwide shipping indicator (flat Rs. 250 across Pakistan).
+   - 10% Online Payment discount incentive with official account details (Nayapay, Sadapay, Easypaisa, JazzCash, Raast, and UBL Bank Transfer).
+   - Cash on Delivery (COD) form with solemn oath confirmation and 50+ Pakistani cities dropdown.
    - Comprehensive COD form with 50+ Pakistani cities dropdown.
    - 1-Click WhatsApp Order generator (pre-fills cart, address, and total into WhatsApp).
    - Celebratory gold confetti animation upon order placement.
