@@ -135,7 +135,7 @@ To make your website look 100% custom and personal to your exact textile invento
 
 1. **Real Bed Sheet High-Resolution Photos:**
    - 3 to 5 flat-lay and dressed bed photos of your actual stitched sheets (King & Queen).
-   - Close-up photos showing the 360° elastic corner band under a real mattress.
+   - Close-up photos showing the generous King flat sheet tuck under a real mattress.
    - Close-up photo of the fabric weave to highlight combed cotton softness.
 2. **Official WhatsApp Phone Number:**
    - Active WhatsApp number: `03363326666` (https://wa.me/923363326666).
